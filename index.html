@@ -64,5 +64,20 @@
       integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
       crossorigin="anonymous"
     ></script>
+    <script>
+      // Smooth Scrolling
+      $('.btn').on('click', function (event) {
+        if (this.hash !== '') {
+          event.preventDefault();
+          const hash = this.hash;
+          $('html, body').animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            900
+          );
+        }
+      });
+    </script>
   </body>
 </html>
