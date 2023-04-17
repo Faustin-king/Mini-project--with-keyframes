@@ -66,3 +66,8 @@ body {
   background: #333;
   color: #fff;
 }
+
+.btn-dark:hover {
+  background: #f4f4f4;
+  color: #333;
+}
