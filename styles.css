@@ -77,3 +77,10 @@ body {
   transform: translateY(-1200px);
   animation: heading var(--animate-speed) forwards ease-in;
 }
+
+/* Keyframes */
+@keyframes heading {
+  to {
+    transform: translateY(0);
+  }
+}
