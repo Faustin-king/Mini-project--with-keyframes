@@ -78,9 +78,20 @@ body {
   animation: heading var(--animate-speed) forwards ease-in;
 }
 
+#page-1 > p {
+  transform: translateX(-1800px);
+  animation: para var(--animate-speed) forwards ease-in 1s;
+}
+
 /* Keyframes */
 @keyframes heading {
   to {
     transform: translateY(0);
+  }
+}
+
+@keyframes para {
+  to {
+    transform: translateX(0);
   }
 }
